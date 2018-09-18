@@ -15,8 +15,8 @@ Django wrapper for [Nameko] microservice framework.
 from django_nameko import get_pool           
 
 # Within some view or model:
-with get_pool().next() as rpc:
-    rpc.mailer.send_mail(foo='bar')
+with get_pool().next() as n:
+    n.rpc.mailer.send_mail(foo='bar')
 ```
 
 # Installation
