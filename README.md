@@ -1,3 +1,8 @@
+This repo forks from and3rson/django-nameko.
+several improves:
+
+* fix rpc module not found bug in python3
+
 # django-nameko
 
 ![build status](https://api.travis-ci.org/and3rson/django-nameko.svg)
